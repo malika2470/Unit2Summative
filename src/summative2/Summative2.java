@@ -35,7 +35,7 @@ public class Summative2 {
             System.out.println("Question 4…"); 
             System.out.println("Question 5..."); 
             System.out.println("percentage of correct answers (out of 5) -1...");
-            System.out.println("percentage of incorrect answers (out of 5) -1...");
+            System.out.println("percentage of incorrect answers (out of 5) -2...");
             System.out.println("6...Exit Game"); 
             number = keyedInput.nextInt();
             String [] questions = new String [6]; 
@@ -104,14 +104,14 @@ public class Summative2 {
           num1 = keyedInput.nextInt();
           System.out.println("Enter how many questions there are in total (5)");
           num2 = keyedInput.nextInt(); 
-         System.out.println("This your percentage of correct answers in the quiz" + addAndOut(num1,num2) );
+         System.out.println("This is your percentage of correct answers in the quiz" + addAndOut(num1,num2) );
           }
          if (number==-2) { 
          System.out.println("Enter how many questions you got incorrect");
           num1 = keyedInput.nextInt();
           System.out.println("Enter how many questions there are in total (5)");
           num2 = keyedInput.nextInt(); 
-         System.out.println("This your percentage of incorrect answers in the quiz" + addAndOut(num1,num2) );
+         System.out.println("This is your percentage of incorrect answers in the quiz" + addAndOut(num1,num2) );
          if (number==6) { 
         System.out.println("You have chosen to exist, goodbye!"); 
           break; }   
